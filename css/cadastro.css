@@ -23,7 +23,7 @@ body {
 }
 
 /* Lado esquerdo (cartão azul) */
-/* .left-box {
+.left-box {
   background: linear-gradient(135deg, #00e6e6, #00b3b3);
   width: 50%;
   display: flex;
@@ -79,7 +79,7 @@ body {
   font-size: 12px;
   color: #fff;
   margin-top: 15px;
-} */
+}
 
 /* Lado direito (formulário vinho) */
 .right-box {
@@ -112,7 +112,7 @@ body {
 
 .form-direito a {
   width: 100%;
-  /* margin: 150px; */
+ margin: 150px;
   padding: 10px;
   border: none;
   border-radius: 5px;

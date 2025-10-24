@@ -8,44 +8,45 @@
 </head>
 <body>
     <div class="cadastro-container">
-    <!-- <div class="left-box">
+    <div class="left-box">
       <div class="card">
         <div class="icon">👤</div>
         <h2>CREATE YOUR ACCOUNT</h2>
 
-        <form>
-          <input type="text" placeholder="USERNAME">
-          <input type="email" placeholder="E-MAIL">
-          <input type="password" placeholder="PASSWORD">
-          <input type="password" placeholder="CONFIRM">
-          <input type="tel" placeholder="PHONE NUMBER">
-          <button type="submit">SUBMIT</button>
-        </form>
+        <!-- <form action="php/cad_usuario.php" method="post">
+          <input type="text" name="username" placeholder="USERNAME">
+          <input type="email" name="email" placeholder="EMAIL">
+          <input type="password" name="password" placeholder="PASSWORD">
+          <input type="password" name="confirm" placeholder="CONFIRM">
+          <input type="tel" name="phonenumer" placeholder="PHONE">
+          <button type="submit" name="botão">SUBMIT</button>
+        </form> -->
 
         <p class="credit">designed by YoungMaster</p>
       </div>
-    </div> -->
-
+    </div>
+<form action="php/cad_usuario.php" method="post" class="form-direito">
     <div class="right-box">
       <h2>Create your account</h2>
 
-      <form class="form-direito">
+      
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome">
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Digite seu email">
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
 
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" placeholder="Digite sua senha">
+        <input type="password" id="senha"name="senha" placeholder="Digite sua senha">
 
         <label for="confirmar">Confirmar senha:</label>
-        <input type="password" id="confirmar" placeholder="Confirme sua senha">
+        <input type="password" id="confirmar" name="confirmar"placeholder="Confirme sua senha">
 
         <label for="celular">Celular:</label>
-        <input type="tel" id="celular" placeholder="(xx) xxxxx-xxxx">
+        <input type="tel" id="celular"name="celular" placeholder="(xx) xxxxx-xxxx">
          
-        <a href="index.html">  Confirmar</a>
+        <button name="botão" type="submit"> Confirmar</button>
+        </form>
         
     </form>
     </div>

@@ -1,0 +1,2 @@
+create database db_sistema_chamado;
+use db_sistema_chamado;
