@@ -7,50 +7,49 @@
     <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
-    <div class="cadastro-container">
-    <div class="left-box">
-      <div class="card">
-        <div class="icon">👤</div>
-        <h2>CREATE YOUR ACCOUNT</h2>
-
-        <!-- <form action="php/cad_usuario.php" method="post">
-          <input type="text" name="username" placeholder="USERNAME">
-          <input type="email" name="email" placeholder="EMAIL">
-          <input type="password" name="password" placeholder="PASSWORD">
-          <input type="password" name="confirm" placeholder="CONFIRM">
-          <input type="tel" name="phonenumer" placeholder="PHONE">
-          <button type="submit" name="botão">SUBMIT</button>
-        </form> -->
-
-        <p class="credit">designed by YoungMaster</p>
-      </div>
-    </div>
-<form action="php/cad_usuario.php" method="post" class="form-direito">
+   <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cadastro-container">
+    
+    
+    <!-- Lado direito com o formulário -->
     <div class="right-box">
       <h2>Create your account</h2>
-
-      
+    <!-- <form action="php/cad_usuario.php" method="post"> -->
+      <form class="form-direito" action="#" method="post">
+    
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        <input type="text" id="nome" name="username" placeholder="Digite seu nome" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu email">
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
         <label for="senha">Senha:</label>
-        <input type="password" id="senha"name="senha" placeholder="Digite sua senha">
+        <input type="password" id="senha" name="password" placeholder="Digite sua senha" required>
 
-        <label for="confirmar">Confirmar senha:</label>
-        <input type="password" id="confirmar" name="confirmar"placeholder="Confirme sua senha">
+        <label for="confirmar-senha">Confirmar senha:</label>
+        <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha" required>
 
         <label for="celular">Celular:</label>
-        <input type="tel" id="celular"name="celular" placeholder="(xx) xxxxx-xxxx">
-         
-        <button name="botão" type="submit"> Confirmar</button>
-        </form>
-        
-    </form>
+        <input type="tel" id="celular" name="celular" placeholder="(XX) XXXXX-XXXX" required>
+
+        <button type="submit">Confirmar</button>
+      </form>
+
+</form>
     </div>
   </div>
+</body>
+</html>
+
     
 </body>
 </html>
